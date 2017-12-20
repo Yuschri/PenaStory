@@ -14,13 +14,13 @@
 
         <TextView
             android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_width="248dp"
+            android:layout_height="33dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Start Your Story"
+            android:text="Tulis Ceritamu Di sini"
             android:textColor="@color/colorPrimary"
             android:textSize="24dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +37,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:ems="10"
-            android:hint="Tittle"
+            android:hint="Judul"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.851"
@@ -61,13 +61,13 @@
 
         <EditText
             android:id="@+id/editTextStory_isi"
-            android:layout_width="331dp"
-            android:layout_height="217dp"
+            android:layout_width="316dp"
+            android:layout_height="160dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:ems="10"
-            android:hint="Your Story In Here"
+            android:hint="Ceritamu di sini"
             android:inputType="textMultiLine"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,12 +83,28 @@
             android:layout_marginTop="12dp"
             android:background="@color/colorPrimary"
             android:icon="@drawable/ic_create_black_24dp"
-            android:text="Posting Ceritamu"
+            android:text="Posting"
             android:textColor="#ffffff"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextStory_isi" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="94dp"
+            android:layout_height="95dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/penaa"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.178"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.212" />
     </android.support.constraint.ConstraintLayout>
 
 </FrameLayout>
