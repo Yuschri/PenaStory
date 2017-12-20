@@ -57,4 +57,14 @@ public class SharedPrefManager {
         return true;
     }
 
+    public static String getUsername(){
+        SharedPreferences sharedPreferences  = mCtx.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        return sharedPreferences.getString(KEY_USERNAME,null);
+    }
+
+    public static String getUserEmail(){
+        SharedPreferences sharedPreferences  = mCtx.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        return sharedPreferences.getString(KEY_USER_EMAIL,null);
+    }
+
 }
