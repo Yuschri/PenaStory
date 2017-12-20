@@ -1,11 +1,14 @@
 <resources>
-    <string name="app_name">MyStory</string>
+    <string name="app_name">PenaKu</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in">Masuk</string>
+    <string name="masuk">Masuk Dengan Akun Anda :)</string>
+    <string name="daftar">Daftar</string>
+    <string name="daftarbaru">Daftar Akun Baru</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
@@ -15,8 +18,10 @@
         completions."
     </string>
     <string name="Profile">Profile</string>
-    <string name="Story">Story</string>
-    <string name="title_activity_home">HomeActivity</string>
+    <string name="Story">Tulis Cerita</string>
+    <string name="Tulis">Tulis Cerita</string>
+    <string name="home">Selamat Datang di Aplikasi Penaku</string>
+    <string name="title_activity_home">PenaKu</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>

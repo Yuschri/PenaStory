@@ -14,7 +14,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="SIGN UP"
+        android:text="@string/daftarbaru"
         android:textColor="@color/colorPrimary"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,8 +25,8 @@
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="268dp"
-        android:layout_height="wrap_content"
+        android:layout_width="325dp"
+        android:layout_height="40dp"
         android:layout_marginBottom="128dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -42,26 +42,25 @@
 
     <Button
         android:id="@+id/btnSignup"
-        android:layout_width="129dp"
-        android:layout_height="51dp"
+        android:layout_width="326dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@color/colorPrimary"
-        android:text="Sign Up"
-        android:textColor="#ffffff"
+        android:background="@color/colorBiru4"
+        android:text="@string/daftar"
+        android:textColor="#323232"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
-        app:layout_constraintVertical_bias="0.351" />
+        app:layout_constraintVertical_bias="0.198" />
 
     <EditText
         android:id="@+id/editTextUsername"
-        android:layout_width="268dp"
-        android:layout_height="wrap_content"
+        android:layout_width="316dp"
+        android:layout_height="51dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="56dp"
@@ -74,8 +73,8 @@
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="268dp"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="46dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
