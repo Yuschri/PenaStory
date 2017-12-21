@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.creativate.app.mystory.StoryDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bc">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="209dp"
+            android:layout_height="23dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="casual"
+            android:text="Senyum Merah Jambu"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.06" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="273dp"
+            android:layout_height="368dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="casual"
+            android:text="Lengkung terindah terlukis dibibir merah muda kala itu, membuatku merasa lupa bahwa kakiku masih tertapak pada dunia. Sudut celah bibirnya mengembang bak bulan sabit yang baru saja muncul untuk menghias langit.
+Ri... Panggilku pelan ke arahnya. Kakiku seolah sadar akan keberadaannya menapak jalan di depanku menuju ke arah lelaki berbadan tegap itu. Terkadang dunia memang tak adil, manusia yang memiliki senyum terindah juga kadang enggan berpikir tentang orang lain.
+Sama seperti lelaki yang tepat berada di depanku saat ini. Dia bukan lelaki yang mudah bicara tentang orang lain apalagi masalah hati. Kudapati matanya yang sendu menatap ke arahku dan berucap kata-kata yang biasa kudengar setiap pagi saat bertemu dengannya.
+Sudah makan? pertanyaan simpel yang kutahu akhirnya akan menghidupkan keributan. dan akau yang selalu memberinya jawaban belum, membuat raut wajah lelaki itu kontan berubah sinis. ku tahu pasti dia akan marah membual banyak hal dan mengungkit semua hal saat marah.
+aku hanya diam mematung melontarkan senyum tipis dan mendengar ocehan lelaki itu. dan ku tahu lagi dia akan lebih marah"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.496" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
